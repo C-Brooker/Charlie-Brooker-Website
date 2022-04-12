@@ -15,7 +15,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My <strong className="purple">projects </strong> this year.
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -25,9 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="WorkRate"
+              description="After hearing from friends about some of the negative experiences that they had with internships, I created a platform that increases transparency between companies and applicants with regards to workplace culture. This social media site allows employees to anonymously rate their workplace and leave reviews. Built with MERN stack and redux.js."
+              link="https://workrate.netlify.app"
             />
           </Col>
 
@@ -35,9 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="iCrypt"
+              description="After learning about blockchain and Web3 development, I created my first Decentralized-Application which is an interface that allows users to manage transactions on the Ethereum blockchain. I used Solidity to write contracts for token transfers and I used Web3.js and Truffle to integrate it with my client-side."
+              link="https://iCrypt.netlify.app"
             />
           </Col>
 
@@ -45,13 +45,13 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="DCF Calculator"
+              description="After learning about investment valuation techniques on my university course, I realised that the research process is monotonous and time-inefficient. As a result, I used Python and Django to scrape the web for financial statement data and perform the calculations for me, given some estimates."
+              link="https://dcf-calculator-django.netlify.app"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -80,7 +80,7 @@ function Projects() {
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

@@ -19,36 +19,45 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              {/* I fell in love with programming and I have at least learnt
+              something, I think… 🤷‍♂️ */}
+              I am a self-taught programmer with a love for solving real-world
+              problems with tech!
               <br />
-              <br />I am fluent in classics like
+              <br />I work mainly with classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Java, Javascript and Python. </b>
               </i>
+              I love to learn, I am a wiz with 
+              <b className="purple"> 
+                {" "}
+                MERN Stack, PERN Stack and Django!
+              </b>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building new&nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Web-Based Applications</b> that help
+                to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                 Make people's live's easier.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I am currently widening my skillset and learning about building 
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Large Scale Applications.
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; Specifically, I am learning about
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple">
+                  {" "}
+                  Microservices, Design, Data Structures and Algorithms!
+                </b>
               </i>
             </p>
           </Col>
@@ -67,7 +76,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/bben1"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,7 +84,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
@@ -84,10 +93,10 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/ben-brooker/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -95,7 +104,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
                   target="_blank"
@@ -104,7 +113,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>
