@@ -1,18 +1,11 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function Type() {
+function Type({strings}) {
   return (
     <Typewriter
       options={{
-        strings: [
-          "MERN Stack",
-          "Software Engineer",
-          "PERN Stack", 
-          "Data structures & Algorithms",
-          "Testing", 
-          "Blockchain"
-        ],
+        strings: strings,
         autoStart: true,
         loop: true,
         deleteSpeed: 50,

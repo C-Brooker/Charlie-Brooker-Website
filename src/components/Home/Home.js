@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import codeavatar1 from "../../Assets/codeavatar1.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-
+ 
 function Home() {
   return (
     <section>
@@ -21,18 +21,35 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> BEN BROOKER</strong>
+                I am actively looking to
+                <strong className="main-name">
+                  {" "}
+                  work
+                  {" "}
+                </strong>
+                for an amazing company for
+                <strong className="main-name">
+                  {" "}
+                  summer 2022!
+                </strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+                <Type strings={[
+                  "Full stack developer",
+                  "Software development",
+                  "PERN stack developer", 
+                  "Agile methodology", 
+                  "MERN stack developer",
+                  "Test driven development",
+                ]}/>
+
               </div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={homeLogo}
+                src={codeavatar1}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
@@ -40,8 +57,8 @@ function Home() {
             </Col>
           </Row>
         </Container>
+        <Home2 />
       </Container>
-      <Home2 />
     </section>
   );
 }
