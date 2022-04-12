@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
+import Tilt from "react-parallax-tilt";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
@@ -31,7 +32,9 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={codeavatar3} alt="about" className="img-fluid" />
+            <Tilt>
+              <img src={codeavatar3} alt="about" className="img-fluid" />
+            </Tilt>
           </Col>
         </Row>
         <h1 className="project-heading">

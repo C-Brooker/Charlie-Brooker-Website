@@ -1,11 +1,62 @@
 html {
-  /* --imp-text-color: #c770f0; */
+  /* light blue 8 */
   --imp-text-color: #16c6ef;
   --theme-color: #16c6ef;
   --theme-color-dark: #0f85a0;
+
+  /* dark blue 8 */
+  /* --imp-text-color: #0f85a0;
+  --theme-color: #0f85a0;
+  --theme-color-dark: #16c6ef; */
+
+  /* dark grey */
+  /* --imp-text-color: #666666;
+  --theme-color: #666666;
+  --theme-color-dark: #D9D9D9; */
+
+  /* light-green 6 */
+  /* --imp-text-color: #04F907;
+  --theme-color: #04F907;
+  --theme-color-dark: #006201; */
+
+  /* dark-green 6 */
+  /* --imp-text-color: #006201;
+  --theme-color: #006201;
+  --theme-color-dark: #04F907; */
+
+  /* light yellow 7.4 */
+  /* --imp-text-color: #FDF903;
+  --theme-color: #FDF903;
+  --theme-color-dark: #908D00; */
+
+  /* dark yellow 7.4 */
+  /* --imp-text-color: #908D00;
+  --theme-color: #908D00;
+  --theme-color-dark: #FDF903; */
+
+  /* light red 6.9 */
+  /* --imp-text-color: #F30000;
+  --theme-color: #F30000;
+  --theme-color-dark: #990000; */
+
+  /* dark red 6.9 */
+  /* --imp-text-color: #990000;
+  --theme-color: #990000;
+  --theme-color-dark: #F30000; */
+
+  /* light pink 5.5 */
+  /* --imp-text-color: #FF00C5;
+  --theme-color: #FF00C5;
+  --theme-color-dark: #B9008F; */
+
+  /* dark pink 5.5 */
+  /* --imp-text-color: #B9008F;
+  --theme-color: #B9008F;
+  --theme-color-dark: #FF00C5; */
+
+  
   --theme-background: #0b1416;
   --theme-background-dark: #101111;
-  /* --imp-text-color: #16c6ef; */
 
   --section-background-color: linear-gradient(
     to bottom left,
