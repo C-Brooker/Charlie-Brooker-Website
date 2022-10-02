@@ -18,42 +18,48 @@ function Home2() {
             <p className="home-about-body">
               I am a self-taught programmer with a love for solving real-world
               problems with tech!
-              <br />
-              <br />I work mainly with classics like
+              I am interested in building new 
               <i>
-                <b className="theme-color"> Java, Javascript and Python. </b>
-              </i>
-              I love to learn, I am a wiz with 
-              <b className="theme-color"> 
-                {" "}
-                MERN Stack, PERN Stack and Django!
-              </b>
-              <br />
-              <br />
-              My field of Interest's are building new&nbsp;
-              <i>
-                <b className="theme-color">Web-Based Applications</b> that help
+                <b className="theme-color"> services and applications</b> that help
                 to{" "}
                 <b className="theme-color">
-                 Make people's live's easier.
+                 improve people's lives.
                 </b>
               </i>
               <br />
               <br />
-              I am currently widening my skillset and learning about building 
+              I currently work in a
               <i>
-                <b className="theme-color">
-                  {" "}
-                  Large Scale Applications.
-                </b>
+                <b className="theme-color"> {"back-end"}  </b>
               </i>
-              &nbsp; Specifically, I am learning about
+              team at
               <i>
-                <b className="theme-color">
-                  {" "}
-                  Microservices, Design, Data Structures and Algorithms!
-                </b>
+                <b className="theme-color"> {"American Express."}  </b>
               </i>
+              I use 
+              <i>
+                <b className="theme-color"> {"Java, Microservices and Kafka"}  </b>
+              </i>
+              to ensure that our customers have a
+              <i>
+                <b className="theme-color"> {"smooth and safe"}  </b>
+              </i>
+              online payments experience.
+              <br />
+              <br />
+              Previously I have been building exciting new products for customers at:
+              <br/>
+              {"DataCamp:"}
+              <i>
+                <b className="theme-color"> {"TypeScript, React, Redux, Node, AWS and R"}  </b>
+              </i>
+              <br/>
+              {"American Express:"} 
+              <i>
+                <b className="theme-color"> {"JavaScript, Java Spring Boot and their internal PaaS"}  </b>
+              </i>
+              <br />
+              <br />
             </p>
           </Col>
           <Col md={4} className="myAvtar">

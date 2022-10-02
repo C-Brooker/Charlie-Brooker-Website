@@ -12,8 +12,17 @@ function AboutCard() {
             from <span className="theme-color"> United Kingdom.</span>
             <br/>
             <br />
-            I am a student pursuing BSc in <span className="theme-color">Economics and Finance </span>
-            at the <span className="theme-color"> University of St Andrews</span>, Scotland.
+            I hold a BSc in <span className="theme-color">Economics and Finance </span>
+            from the <span className="theme-color"> University of St Andrews</span>, Scotland 
+            {" (Ranked "}
+            <a 
+            className="theme-color" 
+            href="https://www.theguardian.com/education/2022/sep/24/stoxbridge-st-andrews-overtakes-oxford-cambridge-guardian-university-guide" 
+            target="_blank" 
+            rel="noreferrer"> 
+              {"1st in the UK"}
+            </a> 
+            {" at time of graduation)."}
             <br />
             <br />
             Why would an <span className="theme-color">Economics student </span> get into tech?
@@ -29,11 +38,6 @@ function AboutCard() {
               <BsArrowRightShort /> There is always so much to learn!
             </li>
           </ul>
-
-          <p className="blockquote2">
-            "I want to be like Tony Stark when I grow up"{" "}
-          </p>
-          <footer className="blockquote-footer">Ben</footer>
         </blockquote>
       </Card.Body>
     </Card>

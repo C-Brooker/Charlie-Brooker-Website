@@ -22,26 +22,26 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I am actively looking to
+                I am a recent graduate open to learning from
                 <strong className="main-name">
                   {" "}
-                  work
+                  amazing companies
                   {" "}
                 </strong>
-                for an amazing company for
+                and
                 <strong className="main-name">
                   {" "}
-                  summer 2022!
+                  amazing individuals
                 </strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type strings={[
+                  "Internships: DataCamp (3 months), American Express (3 months)",
+                  "Currently: Back-end (online payments) at American Express",
                   "Full stack developer",
-                  "Software development",
-                  "PERN stack developer", 
+                  "Microservices",
                   "Agile methodology", 
-                  "MERN stack developer",
                   "Test driven development",
                 ]}/>
 
