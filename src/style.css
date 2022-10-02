@@ -80,6 +80,10 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.theme-logo-capital:hover {
+  color: white !important;
+}
+
 .theme-logo {
   display: flex;
   flex-direction: row;
@@ -88,6 +92,8 @@ html {
   font-size: 300%;
   color: white;
 }
+
+
 
 @media (max-width: 1200px) {
   .theme-logo {

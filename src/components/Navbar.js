@@ -36,7 +36,7 @@ function NavBar() {
         <Navbar.Brand href="/" className="d-flex">
           <h1 className="theme-logo">
             <b className="theme-logo-capital">{"<"}</b>
-              <b>BrkrBn</b> 
+              <b className="theme-title">BrkrBn</b> 
             <b className="theme-logo-capital">{"/>"}</b>
           </h1>
         </Navbar.Brand>
