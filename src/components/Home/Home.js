@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import Tilt from "react-parallax-tilt";
 import Home2 from "./Home2";
 import Type from "./Type";
- 
+
 function Home() {
   return (
     <section>
@@ -22,41 +22,35 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I am a recent graduate open to learning from
-                <strong className="main-name">
-                  {" "}
-                  amazing companies
-                  {" "}
-                </strong>
+                I am an undergraduate open to learning from
+                <strong className="main-name"> superb companies </strong>
                 and
-                <strong className="main-name">
-                  {" "}
-                  amazing individuals
-                </strong>
+                <strong className="main-name"> amazing individuals</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <Type strings={[
-                  "Internships: DataCamp (3 months), American Express (3 months)",
-                  "Currently: Back-end (online payments) at American Express",
-                  "Full stack developer",
-                  "Microservices",
-                  "Agile methodology", 
-                  "Test driven development",
-                ]}/>
-
+                <Type
+                  strings={[
+                    "Looking for Software engineering internships",
+                    "Looking for Product management",
+                    "Data structures and algorithms",
+                    "Front-end development",
+                    "Back-end development",
+                    "Full-stack development",
+                  ]}
+                />
               </div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-            <Tilt>
-              <img
-                src={codeavatar1}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
-            </Tilt>
+              <Tilt>
+                <img
+                  src={codeavatar1}
+                  alt="home pic"
+                  className="img-fluid"
+                  style={{ maxHeight: "450px" }}
+                />
+              </Tilt>
             </Col>
           </Row>
         </Container>
