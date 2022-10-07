@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import codeavatar3 from "../../Assets/codeavatar3.svg";
+import programmer3 from "../../Assets/programmer3.svg";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -33,7 +33,7 @@ function About() {
             className="about-img"
           >
             <Tilt>
-              <img src={codeavatar3} alt="about" className="img-fluid" />
+              <img src={programmer3} alt="about" className="img-fluid" />
             </Tilt>
           </Col>
         </Row>

@@ -9,7 +9,7 @@ function Github() {
         My recent <strong className="theme-color">activity</strong>
       </h1>
       <GitHubCalendar
-        username="bben1"
+        username="C-Brooker"
         blockSize={15}
         blockMargin={5}
         color="#16c6ef"

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import codeavatar1 from "../../Assets/codeavatar1.svg";
+import programmer1 from "../../Assets/programmer1.svg";
 import Particle from "../Particle";
 import Tilt from "react-parallax-tilt";
 import Home2 from "./Home2";
@@ -45,7 +45,7 @@ function Home() {
             <Col md={5} style={{ paddingBottom: 20 }}>
               <Tilt>
                 <img
-                  src={codeavatar1}
+                  src={programmer1}
                   alt="home pic"
                   className="img-fluid"
                   style={{ maxHeight: "450px" }}
