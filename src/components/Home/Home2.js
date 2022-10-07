@@ -23,7 +23,11 @@ function Home2() {
                 help to <b className="theme-color">improve people's lives.</b>
               </i>
               <br />
-              <br />I am currently an undergraduate student
+              <br />I am currently an{" "}
+              <b className="theme-color">undergraduate student </b>
+              actively looking to develop my skills and career through
+              <b className="theme-color"> opportunities </b>
+              at innovative companies.
               <br />
               <br />
             </p>
