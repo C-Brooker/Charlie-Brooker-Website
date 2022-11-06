@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import ExerciseTrackr from "../../Assets/Projects/ExerciseTrackr.PNG";
 
 function Projects() {
   return (
@@ -20,11 +21,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              //imgPath={}
+              imgPath={ExerciseTrackr}
               isBlog={false}
-              title=""
-              description=""
-              link=""
+              title="ExerciseTrackr"
+              description="Exercise Trackr is a full-stack CRUD web application which displays exercise entries that can be deleted, updated and added to. built with react.js, tailwind and mongoDB."
+              link="https://papaya-entremet-993462.netlify.app/"
             />
           </Col>
 
